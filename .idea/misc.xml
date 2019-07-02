@@ -7,6 +7,8 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/boot-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/filter-log-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/starter-demo/pom.xml" />
       </list>
     </option>
   </component>
