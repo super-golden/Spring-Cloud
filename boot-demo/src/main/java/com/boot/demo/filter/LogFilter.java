@@ -7,6 +7,10 @@ import javax.servlet.*;
 import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
 
+/**
+ * 日志过滤器
+ */
+
 public class LogFilter implements Filter {
 
     private Logger logger = LoggerFactory.getLogger(LogFilter.class);
