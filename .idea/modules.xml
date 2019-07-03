@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Eureka/Eureka.iml" filepath="$PROJECT_DIR$/Eureka/Eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/boot-demo/boot-demo.iml" filepath="$PROJECT_DIR$/boot-demo/boot-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Eureka/eureka-client/eureka-client.iml" filepath="$PROJECT_DIR$/Eureka/eureka-client/eureka-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Eureka/eureka-client-service/eureka-client-service.iml" filepath="$PROJECT_DIR$/Eureka/eureka-client-service/eureka-client-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Eureka/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/Eureka/eureka-server/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/filter-log-starter/filter-log-starter.iml" filepath="$PROJECT_DIR$/filter-log-starter/filter-log-starter.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/springCloud.iml" filepath="$PROJECT_DIR$/.idea/springCloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/starter-demo/starter-demo.iml" filepath="$PROJECT_DIR$/starter-demo/starter-demo.iml" />

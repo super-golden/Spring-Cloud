@@ -7,14 +7,34 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="boot-demo" />
+        <module name="eureka-server" />
         <module name="filter-log-starter" />
         <module name="starter-demo" />
+      </profile>
+      <profile name="Annotation profile for eureka-client-service" enabled="true">
+        <sourceOutputDir name="../../eureka-client-service/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../eureka-client-service/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eureka-client-service" />
+      </profile>
+      <profile name="Annotation profile for eureka-client" enabled="true">
+        <sourceOutputDir name="../../eureka-client/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../eureka-client/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eureka-client" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="boot-demo" target="1.8" />
+      <module name="demo" target="1.8" />
+      <module name="Eureka" target="1.8" />
+      <module name="eureka-client" target="1.8" />
+      <module name="eureka-client-service" target="1.8" />
+      <module name="eureka-demo" target="1.8" />
+      <module name="eureka-server" target="1.8" />
       <module name="filter-log-starter" target="1.8" />
       <module name="filter-log-strarter" target="1.8" />
+      <module name="ss" target="1.8" />
       <module name="starter-demo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
