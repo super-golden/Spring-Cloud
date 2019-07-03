@@ -1,6 +1,0 @@
-sms:
-  retry-limitation-minutes: 1
-  vaildity-minute: 3
-  types:
-    - register
-    - login

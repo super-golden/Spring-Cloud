@@ -4,3 +4,9 @@ sms:
   types:
     - register
     - login
+management:
+  endpoints:
+     web:
+        exposure:
+          exclude:
+          include: info,health,beans,loggers

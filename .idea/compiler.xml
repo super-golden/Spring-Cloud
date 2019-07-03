@@ -7,11 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="boot-demo" />
+        <module name="filter-log-starter" />
         <module name="starter-demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="boot-demo" target="1.8" />
+      <module name="filter-log-starter" target="1.8" />
+      <module name="filter-log-strarter" target="1.8" />
       <module name="starter-demo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
