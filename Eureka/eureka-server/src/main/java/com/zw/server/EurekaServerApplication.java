@@ -4,6 +4,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
+//为项目自动配置所必须的类，标示服务为注册中心
+//@EnableEurekaServer
 public class EurekaServerApplication {
 
     public static void main(String[] args) {

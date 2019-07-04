@@ -9,7 +9,6 @@
       <module fileurl="file://$PROJECT_DIR$/Eureka/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/Eureka/eureka-server/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/filter-log-starter/filter-log-starter.iml" filepath="$PROJECT_DIR$/filter-log-starter/filter-log-starter.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/springCloud.iml" filepath="$PROJECT_DIR$/.idea/springCloud.iml" />
-      <module fileurl="file://$PROJECT_DIR$/starter-demo/starter-demo.iml" filepath="$PROJECT_DIR$/starter-demo/starter-demo.iml" />
     </modules>
   </component>
 </project>

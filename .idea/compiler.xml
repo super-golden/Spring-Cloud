@@ -31,6 +31,10 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="boot-demo" options="-parameters" />
+      <module name="eureka-client" options="-parameters" />
+      <module name="eureka-client-service" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="filter-log-starter" options="-parameters" />
       <module name="starter-demo" options="-parameters" />
     </option>
   </component>
