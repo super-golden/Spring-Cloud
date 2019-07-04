@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf067db2-f763-4032-a8a2-ba684eef11f5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eureka/eureka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Eureka/eureka-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Eureka/eureka-server/src/main/java/com/zw/server/EurekaServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Eureka/eureka-server/src/main/java/com/zw/server/EurekaServerApplication.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/boot-demo/target/" />
     <ignored path="$PROJECT_DIR$/starter-demo/target/" />
@@ -48,7 +44,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Eureka/eureka-server/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
+            <state relative-caret-position="720">
               <caret line="48" column="19" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
             </state>
           </provider>
@@ -177,7 +173,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds">
     <option name="x" value="50" />
     <option name="y" value="23" />
     <option name="width" value="1390" />
@@ -222,7 +218,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562209350031" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562212507525" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Eureka" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -436,7 +432,7 @@
       <workItem from="1562160804049" duration="2809000" />
       <workItem from="1562163839756" duration="2570000" />
       <workItem from="1562172420995" duration="219000" />
-      <workItem from="1562207026639" duration="1992000" />
+      <workItem from="1562207026639" duration="3935000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1561643826299</created>
@@ -480,7 +476,14 @@
       <option name="project" value="LOCAL" />
       <updated>1562163770402</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="修改pom文件">
+      <created>1562209382689</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1562209382689</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -492,7 +495,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35779000" />
+    <option name="totallyTimeSpent" value="37722000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -504,10 +507,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <frame x="50" y="23" width="1390" height="877" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49910232" visible="true" weight="0.18025751" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49910232" visible="true" weight="0.18694362" />
       <window_info id="Structure" order="1" sideWeight="0.50089765" side_tool="true" weight="0.23891273" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -517,13 +519,13 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840257" visible="true" weight="0.2819277" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840257" weight="0.2819277" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.53050107" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3477707" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4985694" weight="0.36178344" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" sideWeight="0.4985694" visible="true" weight="0.3821656" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32891566" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50143063" side_tool="true" weight="0.42168674" />
@@ -536,7 +538,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.32995737" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.23319027" />
+      <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.24183977" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Database" order="9" weight="0.3290735" />
@@ -587,7 +589,8 @@
     <MESSAGE value="test" />
     <MESSAGE value="starte测试" />
     <MESSAGE value="添加自定义的starter" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加自定义的starter" />
+    <MESSAGE value="修改pom文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改pom文件" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -756,7 +759,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Eureka/eureka-server/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
+        <state relative-caret-position="720">
           <caret line="48" column="19" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
         </state>
       </provider>
