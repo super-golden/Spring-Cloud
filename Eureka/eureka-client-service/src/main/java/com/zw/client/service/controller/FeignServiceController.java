@@ -23,9 +23,10 @@ public class FeignServiceController {
     private static int DEFAULT_PORT = 8080;
 
     @RequestMapping(value = "/instance/{serviceId}" ,method = RequestMethod.GET)
-    public Instance getInstanceByserviceId(@PathVariable String serviceId){
+    public String getInstanceByserviceId(@PathVariable String serviceId){
 
         logger.info("Get Instance by serviceId {}", serviceId);
-        return new Instance(serviceId, DEFAULT_HOST, DEFAULT_PORT);
+        //return new Instance(serviceId, DEFAULT_HOST, DEFAULT_PORT);
+        return "OpenFeign-test";
     }
 }
