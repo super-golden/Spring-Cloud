@@ -2,20 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list id="e0f35832-f676-468c-a4a0-1da832cc5c1e" name="忽略" comment="忽略">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_consul_discovery_unknown.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consul/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consul/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consul/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consul/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consul/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consul/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
-    <list default="true" id="cf067db2-f763-4032-a8a2-ba684eef11f5" name="Default Changelist" comment="添加consul" />
+    <list default="true" id="cf067db2-f763-4032-a8a2-ba684eef11f5" name="Default Changelist" comment="添加consul">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_9_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_9_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_java8_9_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_9_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Consul/consul.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eureka/eureka-client-service/src/main/java/com/zw/client/service/controller/FeignServiceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eureka/eureka-client/src/main/java/com/zw/client/controller/FeignServiceClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-common/eureka-common.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-common/src/main/java/com/zw/dto/Instance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-common/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_consul_discovery_unknown.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_consul_discovery_unknown.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_2_0_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_2_0_0_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eureka/eureka-client-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Eureka/eureka-client-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eureka/eureka-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Eureka/eureka-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eureka/eureka-client/src/main/java/com/zw/client/EurekaClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Eureka/eureka-client/src/main/java/com/zw/client/EurekaClientApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eureka/eureka-client/src/main/java/com/zw/client/controller/AskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Eureka/eureka-client/src/main/java/com/zw/client/controller/AskController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eureka/eureka-client/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Eureka/eureka-client/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/boot-demo/target/" />
     <ignored path="$PROJECT_DIR$/starter-demo/target/" />
     <ignored path="$PROJECT_DIR$/filter-log-starter/target/" />
@@ -29,6 +43,7 @@
     <ignored path="$PROJECT_DIR$/Eureka/eureka-client/target/" />
     <ignored path="$PROJECT_DIR$/Eureka/eureka-client-service/target/" />
     <ignored path="$PROJECT_DIR$/Consul/target/" />
+    <ignored path="Consul/Consul.iml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +51,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" show_ignored="true" />
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
     <option name="GROUP_DATA_SOURCES" value="true" />
@@ -301,7 +317,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562212507525" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Eureka" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Consul/Consul.iml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -475,7 +491,7 @@
       <workItem from="1562207026639" duration="3935000" />
       <workItem from="1562215697064" duration="13794000" />
       <workItem from="1562293531401" duration="14751000" />
-      <workItem from="1562324404835" duration="13333000" />
+      <workItem from="1562324404835" duration="14148000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1561643826299</created>
@@ -540,7 +556,14 @@
       <option name="project" value="LOCAL" />
       <updated>1562322646607</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="忽略">
+      <created>1562549571246</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1562549571246</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -552,7 +575,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79600000" />
+    <option name="totallyTimeSpent" value="80415000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -567,27 +590,28 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.32997763" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5021322" side_tool="true" weight="0.45637584" />
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.32995737" />
       <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32997763" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.11567164" />
       <window_info anchor="right" id="Database" order="9" weight="0.3290735" />
-      <window_info id="Structure" order="1" sideWeight="0.50617284" side_tool="true" visible="true" weight="0.27238807" />
+      <window_info id="Structure" order="1" sideWeight="0.5042135" side_tool="true" weight="0.27238807" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24973376" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.28747204" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.34675616" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.3277405" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32997763" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4978678" visible="true" weight="0.45637584" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" sideWeight="0.4978678" visible="true" weight="0.20357941" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840257" weight="0.2885906" />
       <window_info anchor="bottom" id="Spring" order="12" sideWeight="0.49946696" weight="0.32997763" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32885906" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49382716" visible="true" weight="0.27238807" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49578652" visible="true" weight="0.27238807" />
       <window_info anchor="right" id="Bean Validation" order="10" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="5" />
@@ -596,7 +620,6 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.3277405" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.24183977" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -641,6 +664,32 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -651,7 +700,8 @@
     <MESSAGE value="添加自定义的starter" />
     <MESSAGE value="修改pom文件" />
     <MESSAGE value="添加consul" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加consul" />
+    <MESSAGE value="忽略" />
+    <option name="LAST_COMMIT_MESSAGE" value="忽略" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -725,13 +775,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.0.0.RELEASE/spring-cloud-netflix-eureka-client-2.0.0.RELEASE-sources.jar!/org/springframework/cloud/netflix/eureka/EurekaDiscoveryClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="46" column="25" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-client/1.9.2/eureka-client-1.9.2-sources.jar!/com/netflix/discovery/EurekaClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4048">
@@ -799,6 +842,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1125,6 +1171,11 @@
         <state relative-caret-position="286">
           <caret line="60" column="13" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Consul/consul.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-324" />
       </provider>
     </entry>
   </component>

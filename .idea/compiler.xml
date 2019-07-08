@@ -7,9 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="boot-demo" />
-        <module name="Consul" />
+        <module name="consul" />
         <module name="eureka-client" />
         <module name="eureka-client-service" />
+        <module name="eureka-common" />
         <module name="eureka-server" />
         <module name="filter-log-starter" />
         <module name="starter-demo" />
@@ -17,11 +18,12 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="boot-demo" target="1.8" />
-      <module name="Consul" target="1.8" />
+      <module name="consul" target="1.8" />
       <module name="demo" target="1.8" />
       <module name="Eureka" target="1.8" />
       <module name="eureka-client" target="1.8" />
       <module name="eureka-client-service" target="1.8" />
+      <module name="eureka-common" target="1.8" />
       <module name="eureka-demo" target="1.8" />
       <module name="eureka-server" target="1.8" />
       <module name="filter-log-starter" target="1.8" />
@@ -33,8 +35,10 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="boot-demo" options="-parameters" />
+      <module name="consul" options="-parameters" />
       <module name="eureka-client" options="-parameters" />
       <module name="eureka-client-service" options="-parameters" />
+      <module name="eureka-common" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
       <module name="filter-log-starter" options="-parameters" />
       <module name="starter-demo" options="-parameters" />

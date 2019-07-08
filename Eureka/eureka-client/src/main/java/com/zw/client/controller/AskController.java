@@ -31,6 +31,11 @@ public class AskController {
         return askHelloFromService;
     }
 
+    @RequestMapping("/test")
+    public String test(){
+        return "hello!";
+    }
+
     //注入一个可以进行负载均衡的RestTemple 用于服务调用
     @Bean
     @LoadBalanced
