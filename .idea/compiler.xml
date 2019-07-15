@@ -7,27 +7,35 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="boot-demo" />
-        <module name="consul" />
+        <module name="client" />
+        <module name="client-service" />
         <module name="eureka-client" />
         <module name="eureka-client-service" />
         <module name="eureka-common" />
         <module name="eureka-server" />
         <module name="filter-log-starter" />
+        <module name="server" />
         <module name="starter-demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="boot-demo" target="1.8" />
+      <module name="client" target="1.8" />
+      <module name="client-service" target="1.8" />
       <module name="consul" target="1.8" />
       <module name="demo" target="1.8" />
       <module name="Eureka" target="1.8" />
       <module name="eureka-client" target="1.8" />
       <module name="eureka-client-service" target="1.8" />
+      <module name="eureka-client-service (1)" target="1.8" />
       <module name="eureka-common" target="1.8" />
       <module name="eureka-demo" target="1.8" />
       <module name="eureka-server" target="1.8" />
+      <module name="eureka-server (1)" target="1.8" />
       <module name="filter-log-starter" target="1.8" />
       <module name="filter-log-strarter" target="1.8" />
+      <module name="Hystrix" target="1.8" />
+      <module name="server" target="1.8" />
       <module name="ss" target="1.8" />
       <module name="starter-demo" target="1.8" />
     </bytecodeTargetLevel>

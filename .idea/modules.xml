@@ -2,15 +2,17 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Consul/Consul.iml" filepath="$PROJECT_DIR$/Consul/Consul.iml" />
       <module fileurl="file://$PROJECT_DIR$/Eureka/Eureka.iml" filepath="$PROJECT_DIR$/Eureka/Eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Hystrix/Hystrix.iml" filepath="$PROJECT_DIR$/Hystrix/Hystrix.iml" />
       <module fileurl="file://$PROJECT_DIR$/boot-demo/boot-demo.iml" filepath="$PROJECT_DIR$/boot-demo/boot-demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Consul/consul.iml" filepath="$PROJECT_DIR$/Consul/consul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Hystrix/client/client.iml" filepath="$PROJECT_DIR$/Hystrix/client/client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Hystrix/client-service/client-service.iml" filepath="$PROJECT_DIR$/Hystrix/client-service/client-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/Eureka/eureka-client/eureka-client.iml" filepath="$PROJECT_DIR$/Eureka/eureka-client/eureka-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/Eureka/eureka-client-service/eureka-client-service.iml" filepath="$PROJECT_DIR$/Eureka/eureka-client-service/eureka-client-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-common/eureka-common.iml" filepath="$PROJECT_DIR$/eureka-common/eureka-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/Eureka/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/Eureka/eureka-server/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/filter-log-starter/filter-log-starter.iml" filepath="$PROJECT_DIR$/filter-log-starter/filter-log-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Hystrix/server/server.iml" filepath="$PROJECT_DIR$/Hystrix/server/server.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/springCloud.iml" filepath="$PROJECT_DIR$/.idea/springCloud.iml" />
     </modules>
   </component>

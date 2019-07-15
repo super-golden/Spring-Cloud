@@ -6,7 +6,7 @@ import org.slf4j.Logger;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.*;
 
-@FeignClient(serviceId = "eureka-client-service")//指定调用的远程服务名
+@FeignClient(serviceId = "eureka-client-biz")//指定调用的远程服务名
 @RequestMapping("/feign-service")
 @RestController
 public interface FeignServiceClient {
