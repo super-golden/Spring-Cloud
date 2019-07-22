@@ -27,13 +27,27 @@ public class InstanceService {
 
     @Autowired
     RestTemplate restTemplate;
+
+    @Autowired
+    InstanceClient instanceClient;
+
+
     //@HystrixCommand 注解将该方法纳入到Hystrix的监控中
     @HystrixCommand(fallbackMethod = "instanceInfoGetFail")//指定回滚的方法
     public Instance getInstanceByServiceIdWithRestTemplate(String serviceId){
 
-        Instance instance = restTemplate.getForEntity("http://FEIGN-SERVICE/feign-service/instance/{serviceId}",Instance.class,serviceId).getBody();
+        Instance instance = restTemplate.getForEntity("http://HYSTRIX-SERVICE/feign-service/instance/{serviceId}",Instance.class,serviceId).getBody();
         return  instance;
     }
+
+
+    public Instance getInstanceByServiceIdWithFeign(String serviceId){
+
+        Instance instance = instanceClient.getInstanceByServiceId(serviceId);
+        return  instance;
+    }
+
+
 
     private Instance instanceInfoGetFail(String serviceId){
         logger.info("Cant not get  Instance by serviceId:{}",serviceId);

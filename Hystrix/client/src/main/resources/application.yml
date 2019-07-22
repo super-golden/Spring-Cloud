@@ -10,8 +10,13 @@ server:
   port: 8876
 spring:
   application:
-    name: hystrix-service
+    name: hystrix-client
 logging:
   level:
      org.springframework: debug
+#OpenFeign是自带Hystrix,但是默认没有打开
+feign:
+  hystrix:
+    enabled: true
+
 
