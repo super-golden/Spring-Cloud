@@ -9,4 +9,4 @@ server:
   port: 8765
 spring:
   application:
-    name: eureka-client-biz
+    name: eureka-client-service

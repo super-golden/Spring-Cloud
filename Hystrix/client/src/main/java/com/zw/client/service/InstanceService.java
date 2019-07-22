@@ -1,4 +1,4 @@
-package com.zw.client.biz;
+package com.zw.client.service;
 
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import com.zw.dto.Instance;

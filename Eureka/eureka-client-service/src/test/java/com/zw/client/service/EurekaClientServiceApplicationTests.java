@@ -1,4 +1,4 @@
-package com.zw.client.biz;
+package com.zw.client.service;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -11,6 +11,11 @@ public class EurekaClientServiceApplicationTests {
 
     @Test
     public void contextLoads() {
+    }
+
+    @Test
+    public void JsonTest(){
+
     }
 
 }

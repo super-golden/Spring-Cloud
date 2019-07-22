@@ -1,6 +1,6 @@
 package com.zw.client.controller;
 
-import com.zw.client.biz.InstanceService;
+import com.zw.client.service.InstanceService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

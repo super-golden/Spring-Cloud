@@ -1,4 +1,4 @@
-package com.zw.client.biz.controller;
+package com.zw.client.service.controller;
 
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;

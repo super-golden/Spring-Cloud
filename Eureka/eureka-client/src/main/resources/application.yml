@@ -14,4 +14,4 @@ spring:
 logging:
   level:
      org.springframework: debug
-
+#请求/响应压缩

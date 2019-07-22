@@ -1,4 +1,4 @@
-package com.zw.client.biz;
+package com.zw.client.service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

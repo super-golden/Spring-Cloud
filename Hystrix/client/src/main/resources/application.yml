@@ -10,7 +10,7 @@ server:
   port: 8876
 spring:
   application:
-    name: hystrix-biz
+    name: hystrix-service
 logging:
   level:
      org.springframework: debug

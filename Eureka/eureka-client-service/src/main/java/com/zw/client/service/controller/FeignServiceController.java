@@ -1,4 +1,4 @@
-package com.zw.client.biz.controller;
+package com.zw.client.service.controller;
 
 
 
@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @RestController
-@RequestMapping("/feign-service")
+@RequestMapping()
 public class FeignServiceController {
 
 
@@ -23,10 +23,11 @@ public class FeignServiceController {
     private static int DEFAULT_PORT = 8080;
 
     @RequestMapping(value = "/instance/{serviceId}" ,method = RequestMethod.GET)
-    public Instance getInstanceByserviceId(@PathVariable String serviceId){
+    public Instance getInstanceByServiceId(@PathVariable String serviceId){
 
         logger.info("Get Instance by serviceId {}", serviceId);
-        return new Instance(serviceId, DEFAULT_HOST, DEFAULT_PORT);
-       //  return "OpenFeign-test";
+
+        return new Instance(serviceId,DEFAULT_HOST,DEFAULT_PORT);
+       // return "OpenFeign-test";
     }
 }

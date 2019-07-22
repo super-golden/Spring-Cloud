@@ -1,7 +1,8 @@
-package com.zw.client.biz.controller;
+package com.zw.client.service.controller;
 
 
 
+import com.zw.dto.Instance;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -22,10 +23,10 @@ public class FeignServiceController {
     private static int DEFAULT_PORT = 8080;
 
     @RequestMapping(value = "/instance/{serviceId}" ,method = RequestMethod.GET)
-    public String getInstanceByserviceId(@PathVariable String serviceId){
+    public Instance getInstanceByserviceId(@PathVariable String serviceId){
 
         logger.info("Get Instance by serviceId {}", serviceId);
-        //return new Instance(serviceId, DEFAULT_HOST, DEFAULT_PORT);
-        return "OpenFeign-test";
+        return new Instance(serviceId, DEFAULT_HOST, DEFAULT_PORT);
+       //  return "OpenFeign-test";
     }
 }

@@ -8,4 +8,4 @@ server:
   port: 8765
 spring:
   application:
-    name: client-biz
+    name: client-service
