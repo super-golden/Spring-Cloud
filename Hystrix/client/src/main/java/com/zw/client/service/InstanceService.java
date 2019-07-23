@@ -1,5 +1,6 @@
 package com.zw.client.service;
 
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCollapser;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import com.zw.dto.Instance;
 import org.slf4j.Logger;
@@ -7,6 +8,10 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.Future;
 
 /**
  * @Description:
@@ -54,5 +59,24 @@ public class InstanceService {
 
         return new Instance("error","error",0);
 
+    }
+
+
+    //请求合并的批量操作
+
+    @HystrixCollapser(batchMethod = "getInstanceByServiceIds")
+    public Future<Instance> getInstanceByServiceId(String serviceId) {
+        return null;
+    }
+
+
+    @HystrixCommand
+    public List<Instance> getInstanceByServiceIds(List<String> serviceIds) {
+        List<Instance> instances = new ArrayList<>();
+        logger.info("start batch!");
+        for (String s : serviceIds) {
+            instances.add(new Instance(s, DEFAULT_HOST, DEFAULT_PORT));
+        }
+        return instances;
     }
 }
