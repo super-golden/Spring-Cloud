@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @RestController
-@RequestMapping("/feign-service")
+@RequestMapping("/hystrix-service")
 public class FeignServiceController {
 
 
@@ -25,6 +25,7 @@ public class FeignServiceController {
     @RequestMapping(value = "/instance/{serviceId}" ,method = RequestMethod.GET)
     public Instance getInstanceByserviceId(@PathVariable String serviceId){
 
+        logger.info("feign service....");
         logger.info("Get Instance by serviceId {}", serviceId);
         return new Instance(serviceId, DEFAULT_HOST, DEFAULT_PORT);
        //  return "OpenFeign-test";

@@ -10,6 +10,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @FeignClient(value = "hystrix-service",fallback = InstanceClientFallBack.class)
 public interface InstanceClient {
 
-     @RequestMapping(value = "/feign-service/instance/{serviceId}",method = RequestMethod.GET)
+     @RequestMapping(value = "/hystrix-service/instance/{serviceId}",method = RequestMethod.GET)
      Instance getInstanceByServiceId(@PathVariable("serviceId") String serviceId);
 }
