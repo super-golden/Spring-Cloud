@@ -21,6 +21,9 @@
         <option value="$PROJECT_DIR$/Hystrix/pom.xml" />
         <option value="$PROJECT_DIR$/Hystrix/client-service/pom.xml" />
         <option value="$PROJECT_DIR$/Hystrix/server/pom.xml" />
+        <option value="$PROJECT_DIR$/../Ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/Ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/ribbon-client/pom.xml" />
       </list>
     </option>
   </component>

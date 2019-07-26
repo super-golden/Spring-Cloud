@@ -12,6 +12,10 @@
       <module fileurl="file://$PROJECT_DIR$/eureka-common/eureka-common.iml" filepath="$PROJECT_DIR$/eureka-common/eureka-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/Eureka/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/Eureka/eureka-server/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/filter-log-starter/filter-log-starter.iml" filepath="$PROJECT_DIR$/filter-log-starter/filter-log-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ribbon/ribbon.iml" filepath="$PROJECT_DIR$/Ribbon/ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ribbon/ribbon-client/ribbon-client.iml" filepath="$PROJECT_DIR$/Ribbon/ribbon-client/ribbon-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ribbon/ribbon-server/ribbon-server.iml" filepath="$PROJECT_DIR$/Ribbon/ribbon-server/ribbon-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ribbon/ribbon-service/ribbon-service.iml" filepath="$PROJECT_DIR$/Ribbon/ribbon-service/ribbon-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/Hystrix/server/server.iml" filepath="$PROJECT_DIR$/Hystrix/server/server.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/springCloud.iml" filepath="$PROJECT_DIR$/.idea/springCloud.iml" />
     </modules>

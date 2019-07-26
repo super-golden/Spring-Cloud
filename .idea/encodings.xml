@@ -10,6 +10,12 @@
     <file url="file://$PROJECT_DIR$/Hystrix/client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Hystrix/client-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Hystrix/server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Ribbon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Ribbon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Ribbon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Ribbon/ribbon-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Ribbon/ribbon-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Ribbon/ribbon-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/boot-demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/filter-log-starter" charset="UTF-8" />
