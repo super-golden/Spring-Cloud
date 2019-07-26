@@ -15,3 +15,7 @@ logging:
   level:
      org.springframework: debug
 #请求/响应压缩
+ribbon-service:
+          ribbon:
+           eureka:
+             enabled: false
