@@ -18,6 +18,7 @@
     <modules>
         <module>ribbon-client</module>
         <module>ribbon-service</module>
+        <module>ribbon-service2</module>
         <module>ribbon-server</module>
     </modules>
     <properties>

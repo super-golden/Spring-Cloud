@@ -4,7 +4,6 @@ import com.zw.client.config.RibbonConfiguration;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.netflix.ribbon.RibbonClient;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
@@ -21,8 +20,8 @@ public class RibbonController {
     RestTemplate restTemplate;
 
     @RequestMapping("/hi")
-    public String hi(@RequestParam(value = "name", defaultValue = "samson") String name) {
-        String greeting = this.restTemplate.getForObject("http://ribbon-service/greeting/{name}", String.class, name);
+    public String hi() {
+        String greeting = this.restTemplate.getForObject("http://ribbon-service/greeting", String.class);
         return greeting;
     }
 

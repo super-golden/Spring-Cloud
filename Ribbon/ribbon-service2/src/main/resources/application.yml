@@ -7,14 +7,11 @@ eureka:
        defaultZone: http://localhost:8761/eureka/
 
 server:
-  port: 8762
+  port: 8764
 spring:
   application:
-    name: ribbon-client
+    name: ribbon-service
 logging:
   level:
      org.springframework: debug
-say-hello:
-   ribbon:
-    eureka:
-      enabled: true
+#请求/响应压缩

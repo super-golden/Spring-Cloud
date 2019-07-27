@@ -14,6 +14,6 @@ public class SayHelloController {
 
     @RequestMapping("/greeting")
     public String sayHi() {
-        return "ribbon-service";
+        return "ribbon-service-2";
     }
 }
