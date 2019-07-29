@@ -17,4 +17,4 @@ logging:
 say-hello:
    ribbon:
     eureka:
-      enabled: true
+      enabled: false

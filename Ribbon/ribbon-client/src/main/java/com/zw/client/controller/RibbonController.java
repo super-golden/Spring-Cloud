@@ -1,7 +1,7 @@
 package com.zw.client.controller;
 
 import com.zw.client.api.FeignService;
-import com.zw.client.config.RibbonConfiguration;
+import com.zw.client.config.MyRibbonConfiguration;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.netflix.ribbon.RibbonClient;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -14,7 +14,7 @@ import org.springframework.web.client.RestTemplate;
  * @Date:2019/7/26 18:01
  **/
 @RestController
-@RibbonClient(name = "say-hello", configuration = RibbonConfiguration.class)
+@RibbonClient(name = "say-hello", configuration = MyRibbonConfiguration.class)
 public class RibbonController {
 
     @Autowired

@@ -7,13 +7,15 @@ import com.netflix.loadbalancer.IRule;
 import com.netflix.loadbalancer.PingUrl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 
 /**
  * @Description:
  * @Author:fei-long-zhang
  * @Date:2019/7/26 17:56
  **/
-public class RibbonConfiguration {
+//@Configuration
+public class MyRibbonConfiguration {
 
 
     @Autowired
