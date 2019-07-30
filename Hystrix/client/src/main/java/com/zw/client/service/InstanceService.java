@@ -41,7 +41,7 @@ public class InstanceService {
     @HystrixCommand(fallbackMethod = "instanceInfoGetFail")//指定回滚的方法
     public Instance getInstanceByServiceIdWithRestTemplate(String serviceId){
 
-        Instance instance = restTemplate.getForEntity("http://HYSTRIX-SERVICE/feign-service/instance/{serviceId}",Instance.class,serviceId).getBody();
+        Instance instance = restTemplate.getForEntity("http://HYSTRIX-SERVICE/hystrix-service/instance/{serviceId}",Instance.class,serviceId).getBody();
         return  instance;
     }
 
