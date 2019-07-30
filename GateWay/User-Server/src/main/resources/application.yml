@@ -1,0 +1,15 @@
+
+spring:
+  application:
+    name: user-service
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        ip-address: ${HOST_ADDRESS:localhost}
+        port: ${SERVER_PORT:${server.port}}
+        instance-id: user-${server.port}
+        service-name: user
+server:
+  port: 8005
